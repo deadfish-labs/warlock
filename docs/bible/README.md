@@ -41,7 +41,8 @@ All numbers in this Bible come from the map itself (its script and object data) 
 | 10 | [Roadmap](10-roadmap.md) |
 | 11 | [The lobby platform (vision)](11-lobby-platform.md) |
 | 12 | [Client technology](12-client-technology.md) |
-| 13 | Art and audio direction (to write) |
+| 13 | [Art and audio direction](13-art-audio.md) |
+| 14 | [In-game voice chat (proposal)](14-voice-chat.md) |
 
 Also: [Decisions](decisions.md) · Sources: [the map's help screens](sources/in-game-help.md),
 [what the map data covers](sources/data-coverage.md)
