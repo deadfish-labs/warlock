@@ -1,6 +1,6 @@
 # 14 — In-game voice chat
 
-Status: **proposal** (2026-10-22). Players in a match talk to each other by voice in real time. Each player can mute
+Status: **decided** (owner, 2026-10-22). Players in a match talk to each other by voice in real time. Each player can mute
 other players, mute themselves, and choose **push to talk** or **open mic**.
 
 The original map has no voice: Warcraft III only had text chat (chapter 06). This is new for the remake.
@@ -9,7 +9,7 @@ The original map has no voice: Warcraft III only had text chat (chapter 06). Thi
 
 | Feature | How it works |
 |---|---|
-| **Voice mode** | One setting with three choices: **Off**, **Push to talk** (default) and **Open mic**. |
+| **Voice mode** | One setting with three choices: **Off**, **Push to talk** (the default, decided) and **Open mic**. |
 | **Push to talk** | Desktop: hold a key (default `V`, can be changed). Mobile: hold a mic button on the touch HUD, with an option to tap once to turn it on and again to turn it off. The mic stays live for about 200 ms after release so the last word isn't cut off. |
 | **Open mic** | The mic sends whenever the player is speaking. A sensitivity slider with a live level meter sets when it opens, so breathing and keyboard noise stay out. |
 | **Mute myself** | One key (default `M`) or a HUD button. It works in both modes. Other players see a crossed-out mic next to the name. |
@@ -24,10 +24,10 @@ can still listen.
 ## Who hears whom
 
 - **Free-for-all modes** (Round, Deathmatch, King): everyone in the match.
-- **Team modes** (Round with teams, Avatar): **proposal:** teammates only during the fight, and everyone between
-  rounds in the shop phase. **Open question** for the owner.
-- **Spectators and dead players:** **proposal:** dead players keep hearing the living, but the living don't hear the
-  dead until the round ends, so nobody spies for a living teammate. **Open question.**
+- **Team modes** (Round with teams, Avatar): **Decision:** teammates only during the fight, and everyone between
+  rounds in the shop phase.
+- **Spectators and dead players:** **Decision:** dead players keep hearing the living, but the living don't hear the
+  dead until the round ends, so nobody spies for a living teammate.
 
 ## Technology
 
@@ -37,7 +37,7 @@ With up to 12 players, a fully peer-to-peer setup (each player sends their voice
 each phone uploads 11 copies of its voice. That is too much for weak phones and mobile data, and those phones are a
 requirement (chapter 07).
 
-### Proposed: a voice server (SFU) with LiveKit
+### Decision: a self-hosted voice server (SFU) with LiveKit
 
 Each player sends their voice once to a voice server, and the server forwards it to the others. This kind of
 server is called an SFU (selective forwarding unit).
@@ -78,9 +78,9 @@ server is called an SFU (selective forwarding unit).
 
 ## Where it sits on the roadmap
 
-**Proposal:** build it at the end of phase 1, after the core game works online, because it only needs the match
+**Decision:** build it at the end of phase 1, after the core game works online, because it only needs the match
 (no accounts). Phase 3 lobby voice (chapter 11) reuses the same voice server, with rooms for groups instead of
-matches. **Owner to confirm.**
+matches.
 
 ## Testing
 
@@ -88,10 +88,10 @@ matches. **Owner to confirm.**
 - Real devices: a weak Android phone on mobile data, an iPhone with Safari, desktop Chrome and Firefox.
 - Push to talk timing, open-mic sensitivity, mute and unmute, team-only hearing, reconnecting after a network drop.
 
-## Open questions
+## Decisions (owner, 2026-10-22)
 
-1. Team modes: teammates only during the fight, or everyone? (proposal above)
-2. Can dead players talk to the living? (proposal above)
-3. Default mode: push to talk (proposed), open mic, or off?
-4. Hosting: self-hosted LiveKit next to the game servers (proposed), or a paid hosted service?
-5. Phase: end of phase 1 (proposed), or later?
+1. Team modes: teammates only during the fight, everyone in the shop between rounds.
+2. Dead players hear the living; the living don't hear the dead until the round ends.
+3. Default mode: push to talk.
+4. Hosting: self-hosted LiveKit next to the game servers.
+5. Phase: end of phase 1.
