@@ -18,26 +18,33 @@ used.
 | | |
 |---|---|
 | Original map | `Warlock.w3x` (in this repository), Warcraft III custom map |
-| Version | 0.99c (as shown in gameplay recordings) |
-| Map authors | Demestotenes & Zymoran |
+| Version | **1.06n**, community edition (the map file in this repository; gameplay videos often show the older 0.99c) |
+| Map authors | Demestotenes & Zymoran; 1.06n by Zymoran and Adynathos; community edition by Quetra |
 | Special thanks (from the map's credits) | Chindril (supportive editing), Vexorian (WC3 map optimizer), and others listed in the credits chapter |
 
 All numbers in this Bible come from the map itself (its script and object data) unless marked otherwise.
 
 ## Chapters
 
-| # | Chapter | Status |
-|---|---|---|
-| 00 | Overview: a round from start to end, credits | to write |
-| 01 | Spells | to write |
-| 02 | Items and the shop | to write |
-| 03 | Arena and lava | to write |
-| 04 | Movement, physics and knockback | to write |
-| 05 | Rounds, scoring and game modes | to write |
-| 06 | Commands, camera and HUD | to write |
-| 07 | Remake requirements | to write |
-| 08 | Technology choices (engine, networking, platforms) | to write |
-| 09 | Art and audio direction | to write |
+| # | Chapter |
+|---|---|
+| 00 | [Overview: a round from start to end, characters, credits](00-overview.md) |
+| 01 | [Spells](01-spells.md) |
+| 02 | [Items and the shop](02-items-shop.md) |
+| 03 | [Arena and lava](03-arena-lava.md) |
+| 04 | [Movement, physics and knockback](04-physics-knockback.md) |
+| 05 | [Rounds, scoring and game modes](05-rounds-scoring-modes.md) |
+| 06 | [Commands, camera and HUD](06-commands-ui.md) |
+| 07 | [Remake requirements](07-remake-requirements.md) |
+| 08 | [Multiplayer and the server (Colyseus)](08-multiplayer-server.md) |
+| 09 | [Scope of the first version](09-scope-v1.md) |
+| 10 | [Roadmap](10-roadmap.md) |
+| 11 | [The lobby platform (vision)](11-lobby-platform.md) |
+| 12 | [Client technology](12-client-technology.md) |
+| 13 | Art and audio direction (to write) |
+
+Also: [Decisions](decisions.md) · Sources: [the map's help screens](sources/in-game-help.md),
+[what the map data covers](sources/data-coverage.md)
 
 ## Conventions
 
