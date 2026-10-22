@@ -21,6 +21,7 @@ decision changes what they describe.
 | 2026-10-22 | **Client rendering:** Three.js with the WebGPU renderer (WebGL2 fallback), in TypeScript; the simulation is a separate core that may move to Rust/WebAssembly only if profiling asks for it (chapter 12). | Owner |
 | 2026-10-22 | **Camera:** the same as the original map: 3D world seen from a fixed top-down camera. | Owner |
 | 2026-10-22 | **Performance target:** must run well on **weak phones** without giving up visual quality where the hardware allows it (quality levels, chapter 12). Optimisation is a first-class requirement. | Owner |
+| 2026-10-22 | **In-game voice chat** (chapter 14): push to talk (default) or open mic, mute yourself, mute or turn down any player. Self-hosted LiveKit voice server, separate from Colyseus. Team modes: teammates only during the fight, everyone in the shop; the dead hear the living but not the other way round. Built at the end of phase 1. | Owner |
 
 ## Open
 

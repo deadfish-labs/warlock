@@ -6,7 +6,8 @@ The order we build in. The game comes first; the platform around it comes later.
 
 The first version of Warlock as defined in chapter 09: five characters, every spell and item, Round (with duel and
 teams), Deathmatch, Avatar and King, 2–12 players, web (keyboard + mouse) and mobile (joystick + touch buttons), on an
-authoritative Colyseus server (chapter 08). Players join a match from a simple list or an invite link.
+authoritative Colyseus server (chapter 08). Players join a match from a simple list or an invite link. At the end of the phase: in-game voice chat
+(chapter 14).
 
 ## Phase 2 — Accounts, cosmetics and league
 
