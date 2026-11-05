@@ -1,7 +1,7 @@
-# 12 — Client technology (proposal)
+# 12 — Client technology
 
-How the game is drawn in the browser and on phones, and where performance really comes from. **Status: proposal,
-waiting for the owner's decision** (2026-10-22). The owner's goal: use the player's graphics card through the browser
+How the game is drawn in the browser and on phones, and where performance really comes from. **Status: decided** (owner, 2026-10-22;
+see `decisions.md`). The owner's goal: use the player's graphics card through the browser
 and be fast enough for more players, more effects and more animation later.
 
 ## Where the time goes in a game like Warlock
